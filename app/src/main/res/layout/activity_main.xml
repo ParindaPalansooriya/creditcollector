@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_loging"
+    android:orientation="vertical"
+    tools:context="com.modifica.creditcollectorapp.MainActivity">
+
+    <ImageView
+        android:id="@+id/logo_loging"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/LD"
+        app:srcCompat="@drawable/logo_pik" />
+
+    <ImageView
+        android:id="@+id/pik_loging"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/LD"
+        app:srcCompat="@drawable/loging_pic" />
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_above="@+id/editText7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:textSize="17sp"
+        android:background="@drawable/border"
+        android:drawableStart="@drawable/ic_action_name_uname"
+        android:drawablePadding="15dp"
+        android:drawableLeft="@drawable/ic_action_name_uname"
+        android:ems="18"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:paddingEnd="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:hint="@string/User_Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_above="@+id/checkBox"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/border"
+        android:drawableStart="@drawable/ic_action_name_pw"
+        android:drawablePadding="15dp"
+        android:drawableLeft="@drawable/ic_action_name_pw"
+        android:ems="18"
+        android:hint="@string/Pass"
+        android:inputType="textPassword"
+        android:textSize="17sp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:paddingEnd="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"/>
+
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:hint="@string/keep"
+        android:shadowColor="@color/font2"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rcbutton"
+        android:ems="18"
+        android:text="@string/LG_BT"
+        android:textColor="@color/font"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:textSize="17sp" />
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="items">
+        <item>Daily</item>
+        <item>Weekly</item>
+    </string-array>
+
+    <string-array name="note">
+        <item>No Location</item>
+        <item>Customer is not in here now</item>
+        <item>Customer is lost today</item>
+    </string-array>
+
+</resources>

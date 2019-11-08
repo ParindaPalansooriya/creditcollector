@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:background="@drawable/list_view"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp">
+
+
+                <TextView
+                    android:id="@+id/loanNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/nikName"
+                    android:layout_alignBottom="@+id/nikName"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginStart="35dp"
+                    android:textColor="@color/font2"
+                    android:textStyle="bold"
+                    android:text="@string/LD" />
+
+                <TextView
+                    android:id="@+id/nikName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_toEndOf="@+id/textView7"
+                    android:layout_toRightOf="@+id/textView7"
+                    android:textColor="@color/font2"
+                    android:textStyle="bold"
+                    android:text="@string/LD" />
+
+                <TextView
+                    android:id="@+id/fullAmount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/nikName"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/LD"
+                    android:textSize="20sp"
+                    android:textColor="@color/font"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/Terms"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/Available_l"
+                    android:layout_alignBottom="@+id/Available_l"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginStart="12dp"
+                    android:textColor="@color/font2"
+                    android:textStyle="bold"
+                    android:text="@string/LD" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/Terms"
+                    android:layout_marginTop="4dp"
+                    android:layout_toEndOf="@+id/Terms"
+                    android:layout_toRightOf="@+id/Terms"
+                    android:textColor="@color/font2"
+                    android:textStyle="bold"
+                    android:text="@string/backslash" />
+
+                <TextView
+                    android:id="@+id/Available_l"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/nikName"
+                    android:layout_marginTop="40dp"
+                    android:layout_toEndOf="@+id/textView7"
+                    android:layout_toRightOf="@+id/textView7"
+                    android:textColor="@color/font2"
+                    android:textStyle="bold"
+                    android:text="@string/LD" />
+
+        </RelativeLayout>
+
+</LinearLayout>

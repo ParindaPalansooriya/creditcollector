@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <color name="colorPrimary">#161823</color>
+    <color name="colorPrimaryDark">#161823</color>
+    <color name="colorAccent">#fbd000</color>
+    <color name="colorbackt">#f9f002</color>
+    <color name = "bt_color">#0a3158</color>
+    <color name = "bt_color1">#0d1f5b</color>
+    <color name = "T_F">#dadada</color>
+    <color name="font">#ffffff</color>
+    <color name="font2">#050505</color>
+   <color name="back1">#60a6ed</color>
+    <color name="blue">#0000FF</color>
+    <color name="navy">#000080</color>
+    <color name="red">#FFED0609</color>
+    <color name="red2">#f75355</color>
+    <color name = "T_F2">#bfbfbf</color>
+
+
+</resources>

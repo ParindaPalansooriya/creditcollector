@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_loging2"
+    tools:context="com.modifica.creditcollectorapp.Selector">
+
+
+    <Button
+        android:id="@+id/button_reg"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_alignTop="@+id/button_crt_ln"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@+id/button_crt_ln"
+        android:layout_toStartOf="@+id/button_crt_ln"
+        android:background="@drawable/kotubutton"
+        android:text="@string/reg"
+        android:textColor="@color/font"
+        android:textSize="15sp"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/button_crt_ln"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="120dp"
+        android:background="@drawable/kotubutton"
+        android:textSize="15sp"
+        android:text="@string/lone_crt"
+        android:textColor="@color/font"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/button_coll"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_alignTop="@+id/button_crt_ln"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/button_crt_ln"
+        android:layout_toRightOf="@+id/button_crt_ln"
+        android:background="@drawable/kotubutton"
+        android:text="@string/collect"
+        android:textColor="@color/font"
+        android:textSize="15sp"
+        android:textAllCaps="false"/>
+
+    <ImageButton
+        android:id="@+id/imageButton_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginTop="12dp"
+        android:background="@null"
+        android:contentDescription="@string/app_name"
+        android:src="@mipmap/log_out" />
+
+
+</RelativeLayout>

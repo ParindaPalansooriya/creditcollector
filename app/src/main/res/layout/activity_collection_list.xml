@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.modifica.creditcollectorapp.Collection_list">
+
+    <android.support.v7.widget.Toolbar
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/toolbar_01"
+    android:background="@color/colorPrimary"/>
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar_03"
+        android:layout_below="@+id/toolbar_01"
+        android:background="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/CL"
+        android:textColor="@color/font"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/collect_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar_03" />
+
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar_01"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:backgroundTint="#a9a9a9"
+        android:textColor="#a9a9a9"
+        android:textColorHint="#a9a9a9"
+        android:hint="@string/SRCH"
+        tools:targetApi="lollipop" />
+
+    <ImageButton
+        android:id="@+id/imageButton_CLL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar_01"
+        android:background="@null"
+        android:layout_toEndOf="@+id/editText10"
+        app:srcCompat="@mipmap/ic_action_name_serc"
+        android:layout_toRightOf="@+id/editText10"
+        android:contentDescription="@string/SRCH" />
+
+
+</RelativeLayout>

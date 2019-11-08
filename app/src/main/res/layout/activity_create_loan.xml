@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.modifica.creditcollectorapp.Create_loan">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar_01"
+        android:background="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/lone_crt"
+        android:textColor="@color/font"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent"
+        android:layout_marginTop="55dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/RL_01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/T_F2">
+
+            <EditText
+                android:id="@+id/editText9"
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border"
+                android:drawableEnd="@drawable/ic_action_name_srch"
+                android:drawableRight="@drawable/ic_action_name_srch"
+                android:ems="18"
+                android:hint="@string/Loan_num"
+                android:inputType="textPersonName"
+                android:paddingEnd="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textSize="17sp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/LN_nikname"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:layout_below="@+id/RL_01"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border"
+            android:ems="18"
+            android:gravity="fill"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginStart="40dp"
+            android:text="@string/YO"
+            android:textSize="17sp"
+            android:paddingStart="20dp" />
+
+        <EditText
+            android:id="@+id/editText17"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:layout_below="@+id/LN_nikname"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border"
+            android:ems="18"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:paddingEnd="20dp"
+            android:hint="@string/LA"
+            android:inputType="numberDecimal"
+            android:layout_marginLeft="40dp"
+            android:layout_marginStart="40dp"
+            android:textSize="17sp" />
+
+        <EditText
+            android:id="@+id/editText18"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:layout_below="@+id/editText17"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border"
+            android:ems="18"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:paddingEnd="20dp"
+            android:hint="@string/rate"
+            android:inputType="numberDecimal"
+            android:layout_marginLeft="40dp"
+            android:layout_marginStart="40dp"
+            android:textSize="17sp" />
+
+        <EditText
+            android:id="@+id/editText19"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:layout_alignLeft="@+id/editText18"
+            android:layout_alignStart="@+id/editText18"
+            android:layout_below="@+id/editText18"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border"
+            android:ems="14"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:paddingEnd="20dp"
+            android:hint="@string/LP"
+            android:inputType="numberDecimal"
+            android:layout_marginRight="100dp"
+            android:textSize="17sp"
+            android:layout_marginEnd="100dp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_alignBaseline="@+id/editText19"
+            android:layout_alignBottom="@+id/editText19"
+            android:layout_alignEnd="@+id/spinner2"
+            android:layout_alignRight="@+id/spinner2"
+            android:layout_marginEnd="11dp"
+            android:layout_marginRight="11dp"
+            android:gravity="center"
+            android:text="@string/months"
+            android:textSize="17sp" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:layout_alignEnd="@+id/button4"
+            android:layout_alignLeft="@+id/button4"
+            android:layout_alignRight="@+id/button4"
+            android:layout_alignStart="@+id/button4"
+            android:layout_below="@+id/editText19"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border"
+            android:entries="@array/items"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:paddingEnd="20dp"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:layout_below="@+id/spinner2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rcbutton"
+            android:ems="18"
+            android:text="@string/cal"
+            android:textColor="@color/font"
+            android:layout_marginLeft="40dp"
+            android:layout_marginStart="40dp"
+            android:textAllCaps="false"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView14"
+            android:layout_alignRight="@+id/textView14"
+            android:layout_below="@+id/button4"
+            android:layout_marginTop="20dp"
+            android:text="@string/APT"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView10"
+            android:layout_alignStart="@+id/textView10"
+            android:layout_below="@+id/textView10"
+            android:text="@string/LD"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView15"
+            android:layout_alignStart="@+id/textView15"
+            android:layout_below="@+id/textView12"
+            android:layout_marginTop="20dp"
+            android:text="@string/NOT"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button5"
+            android:layout_alignStart="@+id/button5"
+            android:layout_below="@+id/textView14"
+            android:layout_marginLeft="68dp"
+            android:layout_marginStart="68dp"
+            android:text="@string/LD"
+            android:textSize="17sp" />
+
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:layout_below="@+id/textView15"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rcbutton"
+            android:ems="18"
+            android:text="@string/lone_crt"
+            android:textColor="@color/font"
+            android:layout_marginLeft="40dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginBottom="40dp"
+            android:textAllCaps="false"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView14"
+            android:layout_marginEnd="11dp"
+            android:layout_marginRight="11dp"
+            android:layout_toLeftOf="@+id/textView12"
+            android:layout_toStartOf="@+id/textView12"
+            android:background="@drawable/rcbutton"
+            android:contentDescription="@string/LD"
+            android:layout_marginBottom="5dp"
+            app:srcCompat="@android:drawable/ic_menu_info_details" />
+
+        <ImageView
+            android:id="@+id/imageView41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/button5"
+            android:layout_alignLeft="@+id/imageView3"
+            android:layout_alignStart="@+id/imageView3"
+            android:background="@drawable/rcbutton"
+            android:contentDescription="@string/LD"
+            android:layout_marginBottom="5dp"
+            app:srcCompat="@android:drawable/ic_menu_info_details" />
+
+        <ImageView
+            android:id="@+id/imageView47"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView14"
+            android:layout_alignEnd="@+id/button4"
+            android:layout_alignRight="@+id/button4"
+            android:contentDescription="@string/LD"
+            android:layout_marginRight="25dp"
+            android:layout_alignTop="@+id/textView10"
+            android:layout_marginEnd="25dp" />
+
+        <ImageView
+            android:id="@+id/imageView48"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/button5"
+            android:layout_alignEnd="@+id/button5"
+            android:layout_alignRight="@+id/button5"
+            android:layout_alignTop="@+id/textView14"
+            android:contentDescription="@string/LD"
+            android:layout_marginRight="25dp"
+            android:layout_marginEnd="25dp" />
+
+    </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

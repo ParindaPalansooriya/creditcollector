@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "599717696720",
+    "firebase_url": "https://lkmodificaloanapp.firebaseio.com",
+    "project_id": "lkmodificaloanapp",
+    "storage_bucket": "lkmodificaloanapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:599717696720:android:57991d193aa3029c",
+        "android_client_info": {
+          "package_name": "com.modifica.creditcollectorapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "599717696720-j7ki7itma59oa3domr2g0vhtvoruuc2s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.modifica.creditcollectorapp",
+            "certificate_hash": "24bb33ee40b42c3d3660e6920f4255a807731717"
+          }
+        },
+        {
+          "client_id": "599717696720-66mm6gkvp374916vjf0gfs45eahfk7rv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDq3Lrcy5bxjUX85Ask-_edYIGYDe99q7E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "599717696720-66mm6gkvp374916vjf0gfs45eahfk7rv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
