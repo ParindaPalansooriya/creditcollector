@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context="com.modifica.creditcollectorapp.Create_loan">
 
-    <android.support.v7.widget.Toolbar
+    <androidx.appcompat.widget.Toolbar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/toolbar_01"
